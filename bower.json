@@ -1,7 +1,16 @@
 {
-  "name": "HelloIonic",
+  "name": "AppName Here",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.3.2"
+    "ionic": "driftyco/ionic-bower#master",
+    "ionic-service-core": "~0.1.7",
+    "ionic-service-push": "~0.1.8",
+    "ngCordova": "~0.1.17-alpha",
+    "platform": "~1.3.0",
+    "ionic-platform-web-client": "~0.2.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "angular-cookies": "1.5.3"
   }
 }

@@ -1,4 +1,13 @@
 {
-  "name": "auyuan",
-  "app_id": ""
+  "name": "",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
